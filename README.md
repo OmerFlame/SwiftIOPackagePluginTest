@@ -6,7 +6,7 @@ Swift Package Plugin POC for SwiftIO projects.
 
 SwiftIO is a project similar to Arduino: a development board with an SDK that lets you control the board's CPU's pins using code. However, it is much faster and programs are written for it using the Swift programming language instead of C++.
 
-As of writing this README (November 6th, 2022), the only way to compile and generate working binaries for the SwiftIO boards are only possible using the [mm-sdk](https://github.com/madmachineio/mm-sdk) toolchain, which is incompatible with Xcode. You can compile SwiftIO projects using mm-sdk **only**, because of the need for a special fork of the Swift compiler, found [here](https://github.com/madmachineio/swift), including a bunch of scripts that are required for generating the final binaries SwiftIO boards can recognize, parse and run.
+As of writing this README (November 6th, 2022), the only way to compile and generate working binaries for the SwiftIO boards is using the [mm-sdk](https://github.com/madmachineio/mm-sdk) toolchain, which is incompatible with Xcode. You can compile SwiftIO projects using mm-sdk **only**, because of the need for a special fork of the Swift compiler, found [here](https://github.com/madmachineio/swift), including a bunch of scripts that are required for generating the final binaries SwiftIO boards can recognize, parse and run.
 
 I found this a little annoying because that means I can only use Visual Studio Code for editing SwiftIO projects, when I wanted to use Apple's official IDE, Xcode.
 
