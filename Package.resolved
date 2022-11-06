@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "madboards",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/madmachineio/MadBoards.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "06e613e927fe737a5fd7620fee1c51051495313b"
+      }
+    },
+    {
+      "identity" : "swiftio",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/madmachineio/SwiftIO.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "964b2997fe9876560bd4828b635bb4c7c051ee9a"
+      }
+    },
+    {
+      "identity" : "tomlkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/LebJe/TOMLKit.git",
+      "state" : {
+        "revision" : "b9b8667afe5bb848c00e9be57386acc25dbd3867",
+        "version" : "0.5.4"
+      }
+    }
+  ],
+  "version" : 2
+}
